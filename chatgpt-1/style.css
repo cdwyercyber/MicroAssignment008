@@ -1,31 +1,48 @@
 body {
   font-family: Arial, sans-serif;
-  width: 70%;
+  width: 80%;
   margin: auto;
+  background-color: #1b1b2f;
+  color: white;
 }
 
 h1 {
-  background-color: lightgreen;
+  background-color: #162447;
+  color: #e43f5a;
   margin-top: 1em;
   padding: 1rem;
   clear: left;
+}
+
+main {
+  background-color: #252545;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  justify-items: center;
 }
 
 #nav_menu ul {
   list-style-type: none;
   width: 100%;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-#nav_menu ul li {
-  float: left;
-}
+
 #nav_menu ul li a {
   text-align: center;
   display: block;
   width: 250px;
   padding: 1em 0;
   text-decoration: none;
-  background-color: blue;
+  background-color: rgb(84, 20, 63);
   color: white;
   font-weight: bold;
   border-right: 2px solid white;
